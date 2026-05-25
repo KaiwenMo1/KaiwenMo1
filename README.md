@@ -1,34 +1,49 @@
 # Hi, I'm Kaiwen
 
-I like building systems that make messy information easier to reason about.
+I'm a CS student building evidence-grounded AI agents, developer tools, and data products.
 
-My current focus is the intersection of:
-- AI agents
-- RAG
-- data engineering
-- sports/finance analytics
-- practical full-stack tools
+I like projects that go past "call an API": collect real data, retrieve evidence, explain uncertainty, run tests, and ship a usable interface.
 
-I care about projects that do more than demo a model. I want them to collect real data, explain uncertainty, show evidence, and be useful to someone.
+## What I'm Building
 
-## Featured Build
+| Project | What it shows |
+| --- | --- |
+| [PatchGuard](https://github.com/KaiwenMo1/patchguard) | Evidence-backed verification for AI-generated Python PRs. It analyzes diffs, runs tests/static/security checks, scores merge risk, and serves a React/FastAPI dashboard. |
+| [Transfer Stock Analyst](https://github.com/KaiwenMo1/soccer_transfer_rumor_impacts) | An AI analyst for football transfer rumors, reporter credibility, and listed-club stock reactions, with RAG, local agent runs, scenario simulation, and a static dashboard. |
+| [2026 World Cup Predictor](https://github.com/KaiwenMo1/worldcup2026) | A transparent tournament simulator for the expanded 48-team World Cup, with probabilistic matches, Random Forest support, and a FastAPI demo app. |
+| ASL Sign Translator | A real-time sign-language translation prototype using MediaPipe hand landmarks, a GRU sequence model, a WebSocket inference backend, and a Next.js frontend. |
 
-### Transfer Stock Analyst
+## Other Projects I Care About
 
-A local AI analyst for football transfer rumors and publicly traded club stocks.
+- **Search Engine:** inverted index pipeline, ranking/search servers, tests, and a small search UI.
+- **MapReduce:** a Python manager/worker MapReduce system with integration tests.
+- **Full-Stack Social App:** Flask, SQLite, React, REST APIs, authentication flows, infinite scroll, and Cypress tests.
+- **SWMM + Leaflet Infrastructure Map:** parses stormwater model files into GeoJSON and visualizes network hotspots on an interactive map.
+- **DateRank:** privacy-first analytics for user-owned dating-app exports, built around local parsing and deterministic metrics.
+- **Mental Health NLP Retrieval:** mental-state classification and personality-aware resource retrieval research with TF-IDF, logistic regression, and BM25 baselines.
 
-It tracks transfer news, scores reporter credibility, links rumors to listed clubs, compares historical cases, runs agentic scenario simulations, and shows everything in a dashboard.
+## Current Focus
 
-Core ideas:
-- credible rumors may matter before confirmed transfers
-- market reactions are noisy and need context
-- AI tools should cite their evidence
-- predictions should show uncertainty, not pretend to be magic
+- AI agents that cite evidence instead of guessing
+- RAG systems over local project data
+- CI and verification tools for AI-generated code
+- Sports, finance, and market-intelligence dashboards
+- ML systems that are honest about uncertainty and evaluation
 
-## Currently Exploring
+## Tech I Use
 
-- Agentic workflows
-- Evidence-grounded AI
-- ML evaluation
-- RAG over real datasets
-- Building projects that are actually demoable
+`Python` · `FastAPI` · `pytest` · `Docker` · `GitHub Actions` · `React` · `Next.js` · `TypeScript` · `SQLite` · `pandas` · `scikit-learn` · `RAG` · `LLM agents`
+
+## How I Build
+
+- Start with the data contract.
+- Make the result inspectable.
+- Add tests where the risk is real.
+- Keep model outputs grounded in evidence.
+- Ship a demo people can actually open.
+
+## Links
+
+- Portfolio: [kaiwen_portfolio](https://github.com/KaiwenMo1/kaiwen_portfolio)
+- GitHub: [@KaiwenMo1](https://github.com/KaiwenMo1)
+
